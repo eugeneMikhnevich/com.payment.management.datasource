@@ -1,2 +1,4 @@
-package com.payment.management.datasource.service;public enum Bank {
+package com.payment.management.datasource.service;
+
+public enum Bank {
 }

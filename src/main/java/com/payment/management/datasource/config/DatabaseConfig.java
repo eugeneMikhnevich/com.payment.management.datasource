@@ -1,2 +1,7 @@
-package com.payment.management.datasource.config;public class DatabaseConfig {
+package com.payment.management.datasource.config;
+
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+public class DatabaseConfig {
 }
