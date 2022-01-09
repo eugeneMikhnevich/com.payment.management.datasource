@@ -20,7 +20,7 @@ public class ReceiptController {
     @PostMapping
     public void uploadReceipt(
             @RequestParam("file") @NonNull MultipartFile file,
-            @RequestHeader("format") @NonNull Format format) {
+            @RequestHeader("content-type") @NonNull Format format) {
         try {
             receiptService.process(file.getInputStream(), format);
         } catch (IOException e) {
